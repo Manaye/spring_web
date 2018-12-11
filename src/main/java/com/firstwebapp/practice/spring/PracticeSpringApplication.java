@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PracticeSpringApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(PracticeSpringApplication.class, args);
+		System.out.println("http://localhost:8080");
 	}
+
 }

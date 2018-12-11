@@ -11,6 +11,7 @@ public class PracticeSpringApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
