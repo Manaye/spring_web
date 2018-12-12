@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Albums</title>
+    <div th:replace="~{common :: head}"></div>
+</head>
+<body>
+<ul>
+    <li th:each="album: ${albums}">
+        <span th: text="${album.music}"></span>
+    </li>
+</ul>
+</body>
+</html>
