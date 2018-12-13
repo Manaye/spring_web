@@ -1,5 +1,7 @@
+
 package com.firstwebapp.practice.spring;
         import static org.junit.Assert.*;
+
 
         import org.junit.Test;
         import org.junit.runner.RunWith;
@@ -12,5 +14,8 @@ public class HelloWorldControllerTest {
     public void testCapitalizeString(){
         assertEquals("This should be capitalized", "THIS SHOULD BE CAPITALIZED", HelloWorldController.capitalizeString("this should be capitalized"));
 
+
+
     }
 }
+
