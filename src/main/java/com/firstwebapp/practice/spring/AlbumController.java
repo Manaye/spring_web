@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.view.RedirectView;
 
-
 @Controller
 public class AlbumController {
     @Autowired
@@ -27,7 +26,7 @@ public class AlbumController {
         return "albums";
     }
 
-    //add album
+//    add album
     @RequestMapping(value = "/albums", method = RequestMethod.POST)
     public RedirectView create(
             @RequestParam String title,

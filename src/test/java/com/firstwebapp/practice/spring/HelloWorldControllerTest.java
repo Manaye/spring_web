@@ -14,6 +14,8 @@ public class HelloWorldControllerTest {
         assertEquals("This should be capitalized", "THIS SHOULD BE CAPITALIZED", HelloWorldController.capitalizeString("this should be capitalized"));
 
     }
+
+
 }
 
 
