@@ -1,3 +1,4 @@
+
 package com.firstwebapp.practice.spring;
         import static org.junit.Assert.*;
 
@@ -17,3 +18,4 @@ public class HelloWorldControllerTest {
 
     }
 }
+

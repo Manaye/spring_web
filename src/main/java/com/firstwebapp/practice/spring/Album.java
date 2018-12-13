@@ -1,7 +1,12 @@
 package com.firstwebapp.practice.spring;
+import javax.persistence.*;
 
 
+@Entity
 public class Album {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     private String title;
     private String artist;
     private int songCount;
